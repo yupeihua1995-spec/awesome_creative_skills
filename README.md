@@ -1,41 +1,78 @@
 # Creative Skills
 
-图像与视频创作 Skills 合集。
+图像与视频创作 Skills 合集。仓库只维护索引和上游引用，不存放第三方仓库内容；安装和使用时请以各上游项目的最新文档与许可证为准。
 
-当前先收录一组偏编辑设计、纸刊海报和文化视觉创作的图像 Skills。每个项目保留在 `sources/` 下，入口文档和完整授权条件以各自上游仓库为准。
+## 图像创作 Skills
 
-## 已收录
+| Skill | 用途 | 上游项目 | 授权 |
+| --- | --- | --- | --- |
+| Minimal Zine Poster | 极简纸感编辑海报、留白、实验性文字和视觉锚点 | [LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) | MIT |
+| Photo Abstract Editorial | 保留原照片，并生成同源抽象记忆面板与诗意标题 | [ZzzLc0405/photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) | 个人、教育、研究和非商业用途 |
+| Scenes Gathered Zine v1.3 | 照片锚点、来源抽象插画、强调色和手撕纸边界 | [Zeejay0/gathered-scenes-zine-skill](https://github.com/Zeejay0/gathered-scenes-zine-skill) | 个人非商业授权 |
+| Culture Fragment Poster Engine | 文化素材索引、视觉基因提取、文化海报和品牌 KV | [dacnay816y62-hub/culture-fragment-poster-engine](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine) | 上游未发现许可证，使用前确认 |
+| Create Photo Flipbook UI | 照片书、zine、作品集和响应式 3D 翻页网页 | [HaichaoLihc/create-photo-flipbook-ui](https://github.com/HaichaoLihc/create-photo-flipbook-ui) | MIT；内置 page-flip 另有第三方许可 |
+| Paper Signal | 主体保持、适应性构图、编辑视觉、系列生成和位图 QA | [jiahuiqu17/paper-signal](https://github.com/jiahuiqu17/paper-signal) | MIT |
+| Zine Poster Skill | minimal、scenes、editorial 三种 zine / photo-editorial 工作流 | [jas0nh/zine-poster-skill](https://github.com/jas0nh/zine-poster-skill) | MIT；请同时阅读 NOTICE |
+| Poster Generator Skill | 从文字内容生成 20 种风格的设计级海报 | [howardz27/poster-generator-skill](https://github.com/howardz27/poster-generator-skill) | MIT |
+| Baoyu XHS Images | 将文章拆成 1–10 张社交媒体图片卡片 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 以源仓库许可证为准 |
 
-| Skill | 主要用途 | 调用名 / 入口 | 来源 | 授权备注 |
-| --- | --- | --- | --- | --- |
-| GC Minimal Zine Poster | 将主题、句子、照片或参考图转成留白充足的极简纸感编辑海报 | `$gc-minimal-zine-poster-v0-3` / [`SKILL.md`](sources/gc-minimal-zine-poster/SKILL.md) | [LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) | MIT |
-| Photo Abstract Editorial | 保留原照片，并从照片的空间、构图和色彩关系生成抽象记忆面板与诗意标题 | `photo-abstract-editorial` / [`SKILL.md`](sources/photo-abstract-editorial/SKILL.md) | [ZzzLc0405/photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) | 仓库声明为个人、教育、研究和非商业用途；商业使用需授权 |
-| Scenes Gathered Zine v1.3 | 把照片作为真实视觉锚点，结合来源抽象插画、单一强调色和手撕纸边界制作纸刊海报 | `$scenes-gathered-zine-v1-3` / [`SKILL.md`](sources/gathered-scenes-zine-skill/skills/scenes-gathered-zine-v1-3/SKILL.md) | [Zeejay0/gathered-scenes-zine-skill](https://github.com/Zeejay0/gathered-scenes-zine-skill) | 个人非商业授权 |
-| Culture Fragment Poster Engine | 从文化图片、器物、纹样和建筑中提取可追溯视觉基因，组织海报、KV、封面和品牌视觉方向 | `$culture-fragment-poster-engine` / [`SKILL.md`](sources/culture-fragment-poster-engine/SKILL.md) | [dacnay816y62-hub/culture-fragment-poster-engine](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine) | 当前仓库未发现许可证文件，使用前需向作者确认 |
-| Create Photo Flipbook UI | 将照片集合或成品页面编排成响应式 3D 翻页相册、摄影书、zine 或作品集网页 | `$create-photo-flipbook-ui` / [`SKILL.md`](sources/create-photo-flipbook-ui/skills/create-photo-flipbook-ui/SKILL.md) | [HaichaoLihc/create-photo-flipbook-ui](https://github.com/HaichaoLihc/create-photo-flipbook-ui) | 以仓库 [`LICENSE`](sources/create-photo-flipbook-ui/LICENSE) 为准；内置 page-flip 另有第三方许可 |
+## 安装方式
 
-## 目录说明
+### 方式一：Skills CLI
 
-```text
-sources/
-├── gc-minimal-zine-poster/
-├── photo-abstract-editorial/
-├── gathered-scenes-zine-skill/
-│   └── skills/scenes-gathered-zine-v1-3/
-├── culture-fragment-poster-engine/
-└── create-photo-flipbook-ui/
-│   └── skills/create-photo-flipbook-ui/
+适用于支持社区 Skills 安装器的宿主。推荐先安装完整项目，再按提示选择具体 Skill：
+
+```bash
+npx skills add jiahuiqu17/paper-signal --agent codex
+npx skills add jas0nh/zine-poster-skill --agent codex
+npx skills add howardz27/poster-generator-skill --agent codex
+npx skills add JimLiu/baoyu-skills --agent codex
 ```
 
-`gathered-scenes-zine-skill` 上游还包含 `scene-distillation-zine-v1-3` 等相关 Skills；本次按你的清单重点标记 `scenes-gathered-zine-v1-3`。
+### 方式二：Git 克隆
 
-## 使用方式
+适用于 Codex 或其他支持本地 Skill 目录的宿主。克隆后把包含 `SKILL.md` 的 Skill 目录复制到宿主的 Skill 目录；Codex 常用目录为 `~/.agents/skills/`。
 
-进入对应目录阅读 `README.md` 与 `SKILL.md`。需要安装到 Codex 时，优先直接从上游仓库安装，以获得作者的最新版本和完整授权文件；合集中的副本用于集中浏览和后续整理。
+```bash
+git clone https://github.com/LiamGvchi/gc-minimal-zine-poster.git
+git clone https://github.com/ZzzLc0405/photo-abstract-editorial.git
+git clone https://github.com/Zeejay0/gathered-scenes-zine-skill.git
+git clone https://github.com/dacnay816y62-hub/culture-fragment-poster-engine.git
+git clone https://github.com/HaichaoLihc/create-photo-flipbook-ui.git
+git clone https://github.com/jiahuiqu17/paper-signal.git
+git clone https://github.com/jas0nh/zine-poster-skill.git
+git clone https://github.com/howardz27/poster-generator-skill.git
+git clone https://github.com/JimLiu/baoyu-skills.git
+```
 
-## 收录原则
+### 方式三：单 Skill 安装
 
-- 保留原始来源、目录结构和作者授权信息。
-- 不把不同作者的 Skill 内容合并成一个衍生 Skill。
-- 对缺少明确许可证的项目标记为待确认。
-- 后续新增视频创作 Skills 时，放入 `sources/` 并在本表补充用途、入口、来源和授权备注。
+当上游仓库包含多个 Skill 时，只复制目标目录，避免把整个合集加载进宿主：
+
+```bash
+mkdir -p ~/.agents/skills
+cp -R gathered-scenes-zine-skill/skills/scenes-gathered-zine-v1-3 ~/.agents/skills/
+cp -R create-photo-flipbook-ui/skills/create-photo-flipbook-ui ~/.agents/skills/
+cp -R paper-signal/skills/paper-signal-art-director ~/.agents/skills/
+cp -R paper-signal/skills/paper-signal-series ~/.agents/skills/
+cp -R baoyu-skills/skills/baoyu-xhs-images ~/.agents/skills/
+```
+
+对于根目录直接包含 `SKILL.md` 的项目，直接复制项目目录即可：
+
+```bash
+cp -R gc-minimal-zine-poster ~/.agents/skills/
+cp -R photo-abstract-editorial ~/.agents/skills/
+cp -R culture-fragment-poster-engine ~/.agents/skills/
+cp -R zine-poster-skill ~/.agents/skills/zine
+cp -R poster-generator-skill ~/.agents/skills/poster-generator
+```
+
+安装完成后，新开一个任务或刷新宿主的 Skill 列表。是否能直接生成图片，取决于宿主提供的图像生成和图像查看能力。
+
+## 说明
+
+- `scenes-gathered-zine-v1-3` 位于 `gathered-scenes-zine-skill` 的 `skills/` 子目录。
+- `paper-signal` 和 `baoyu-skills` 都是多 Skill 仓库，本合集只列出与图像创作直接相关的入口。
+- `culture-fragment-poster-engine` 和部分个人授权项目不应默认用于商业项目。
+- 后续新增视频创作 Skills 时，在本 README 增加上游链接、用途、入口和授权说明，不复制上游内容。
