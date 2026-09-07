@@ -15,6 +15,12 @@
 | Zine Poster Skill | minimal、scenes、editorial 三种 zine / photo-editorial 工作流 | [jas0nh/zine-poster-skill](https://github.com/jas0nh/zine-poster-skill) | <img src="https://raw.githubusercontent.com/jas0nh/zine-poster-skill/main/assets/samples/zine-channel-guide.png" alt="Zine Poster Skill example" width="180"> · [原图](https://github.com/jas0nh/zine-poster-skill/blob/main/assets/samples/zine-channel-guide.png) | MIT；请同时阅读 NOTICE |
 | Poster Generator Skill | 从文字内容生成 20 种风格的设计级海报 | [howardz27/poster-generator-skill](https://github.com/howardz27/poster-generator-skill) | <img src="https://raw.githubusercontent.com/howardz27/poster-generator-skill/main/examples/poster-grid-en.jpg" alt="Poster Generator Skill example" width="180"> · [原图](https://github.com/howardz27/poster-generator-skill/blob/main/examples/poster-grid-en.jpg) | MIT |
 | Baoyu XHS Images | 将文章拆成 1–10 张社交媒体图片卡片 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | [官方样式与生成说明](https://github.com/JimLiu/baoyu-skills#baoyu-xhs-images) | 以源仓库许可证为准 |
+| Baoyu Cover Image | 为文章生成封面图，组合主题、配色、渲染、文字和情绪等维度 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills#baoyu-cover-image) | [官方封面示例与说明](https://github.com/JimLiu/baoyu-skills#baoyu-cover-image) | 以源仓库许可证为准 |
+| Baoyu Article Illustrator | 分析文章结构，识别配图位置，并按 Type × Style 生成插图 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills#baoyu-article-illustrator) | [官方插图示例与说明](https://github.com/JimLiu/baoyu-skills#baoyu-article-illustrator) | 以源仓库许可证为准 |
+| Baoyu Comic | 将文章或故事拆成连贯的漫画分镜和图片序列 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills#baoyu-comic) | [官方漫画示例与说明](https://github.com/JimLiu/baoyu-skills#baoyu-comic) | 以源仓库许可证为准 |
+| Pixeltamer | 面向多种 Agent 的 GPT Image 生成、编辑和多参考图合成工作流 | [gabelul/pixeltamer-gpt-image-skill](https://github.com/gabelul/pixeltamer-gpt-image-skill) | [README 展示与 playbook](https://github.com/gabelul/pixeltamer-gpt-image-skill#readme) | 以源仓库许可证为准 |
+| GPT Image 2 | 通过已登录的 Codex CLI 进行文生图、图生图、风格迁移和多参考图合成 | [samyrwendel/gpt-image-2](https://github.com/samyrwendel/gpt-image-2) | [Gallery](https://github.com/samyrwendel/gpt-image-2/tree/main/gallery) | 以源仓库许可证为准 |
+| Codex Image Gen | 通过本地 OAuth 登录的 Codex CLI 生成图片，支持尺寸、提示词归档和可复现输出 | [stephenlzc/codex-image-gen](https://github.com/stephenlzc/codex-image-gen) | [README 使用示例](https://github.com/stephenlzc/codex-image-gen#readme) | 以源仓库许可证为准 |
 
 ## 安装方式
 
@@ -27,6 +33,8 @@ npx skills add jiahuiqu17/paper-signal --agent codex
 npx skills add jas0nh/zine-poster-skill --agent codex
 npx skills add howardz27/poster-generator-skill --agent codex
 npx skills add JimLiu/baoyu-skills --agent codex
+npx skills add gabelul/pixeltamer-gpt-image-skill --agent codex
+npx skills add samyrwendel/gpt-image-2 --agent codex
 ```
 
 ### 方式二：Git 克隆
@@ -43,6 +51,9 @@ git clone https://github.com/jiahuiqu17/paper-signal.git
 git clone https://github.com/jas0nh/zine-poster-skill.git
 git clone https://github.com/howardz27/poster-generator-skill.git
 git clone https://github.com/JimLiu/baoyu-skills.git
+git clone https://github.com/gabelul/pixeltamer-gpt-image-skill.git
+git clone https://github.com/samyrwendel/gpt-image-2.git
+git clone https://github.com/stephenlzc/codex-image-gen.git
 ```
 
 ### 方式三：单 Skill 安装
@@ -66,6 +77,9 @@ cp -R photo-abstract-editorial ~/.agents/skills/
 cp -R culture-fragment-poster-engine ~/.agents/skills/
 cp -R zine-poster-skill ~/.agents/skills/zine
 cp -R poster-generator-skill ~/.agents/skills/poster-generator
+cp -R pixeltamer-gpt-image-skill ~/.agents/skills/pixeltamer
+cp -R gpt-image-2 ~/.agents/skills/gpt-image-2
+cp -R codex-image-gen ~/.agents/skills/codex-image-gen
 ```
 
 安装完成后，新开一个任务或刷新宿主的 Skill 列表。是否能直接生成图片，取决于宿主提供的图像生成和图像查看能力。
