@@ -16,6 +16,22 @@
 | Poster Generator Skill | 从文字内容生成 20 种风格的设计级海报 | [howardz27/poster-generator-skill](https://github.com/howardz27/poster-generator-skill) | MIT |
 | Baoyu XHS Images | 将文章拆成 1–10 张社交媒体图片卡片 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 以源仓库许可证为准 |
 
+## 展示效果
+
+以下图片使用上游仓库中的公开示例，通过远程链接展示；本仓库不保存这些图片。
+
+| Skill | 上游展示效果 | 示例来源 |
+| --- | --- | --- |
+| Minimal Zine Poster | <img src="https://raw.githubusercontent.com/LiamGvchi/gc-minimal-zine-poster/main/examples/night-door.jpeg" alt="Minimal Zine Poster example" width="180"> | [night-door.jpeg](https://github.com/LiamGvchi/gc-minimal-zine-poster/blob/main/examples/night-door.jpeg) |
+| Photo Abstract Editorial | <img src="https://raw.githubusercontent.com/ZzzLc0405/photo-abstract-editorial/main/assets/examples/case-10.jpg" alt="Photo Abstract Editorial example" width="180"> | [case-10.jpg](https://github.com/ZzzLc0405/photo-abstract-editorial/blob/main/assets/examples/case-10.jpg) |
+| Scenes Gathered Zine v1.3 | <img src="https://raw.githubusercontent.com/Zeejay0/gathered-scenes-zine-skill/main/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg" alt="Scenes Gathered Zine example" width="180"> | [result.jpg](https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg) |
+| Culture Fragment Poster Engine | <img src="https://raw.githubusercontent.com/dacnay816y62-hub/culture-fragment-poster-engine/main/8dc29d5b4ddb67499a005d4d0c14661.png" alt="Culture Fragment Poster Engine example" width="180"> | [8dc29d5b…png](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine/blob/main/8dc29d5b4ddb67499a005d4d0c14661.png) |
+| Create Photo Flipbook UI | <img src="https://raw.githubusercontent.com/HaichaoLihc/create-photo-flipbook-ui/main/docs/images/death-valley-flipbook.jpg" alt="Create Photo Flipbook UI example" width="180"> | [death-valley-flipbook.jpg](https://github.com/HaichaoLihc/create-photo-flipbook-ui/blob/main/docs/images/death-valley-flipbook.jpg) |
+| Paper Signal | <img src="https://raw.githubusercontent.com/jiahuiqu17/paper-signal/main/assets/gallery/01-study-old-town-after-rain.webp" alt="Paper Signal example" width="180"> | [gallery](https://github.com/jiahuiqu17/paper-signal/tree/main/assets/gallery) |
+| Zine Poster Skill | <img src="https://raw.githubusercontent.com/jas0nh/zine-poster-skill/main/assets/samples/zine-channel-guide.png" alt="Zine Poster Skill example" width="180"> | [zine-channel-guide.png](https://github.com/jas0nh/zine-poster-skill/blob/main/assets/samples/zine-channel-guide.png) |
+| Poster Generator Skill | <img src="https://raw.githubusercontent.com/howardz27/poster-generator-skill/main/examples/poster-grid-en.jpg" alt="Poster Generator Skill example" width="180"> | [poster-grid-en.jpg](https://github.com/howardz27/poster-generator-skill/blob/main/examples/poster-grid-en.jpg) |
+| Baoyu XHS Images | 暂无单独稳定样图，查看上游 README 中的样式、布局和生成说明 | [官方 README](https://github.com/JimLiu/baoyu-skills#baoyu-xhs-images) |
+
 ## 安装方式
 
 ### 方式一：Skills CLI
