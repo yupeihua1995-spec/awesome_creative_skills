@@ -4,33 +4,17 @@
 
 ## 图像创作 Skills
 
-| Skill | 用途 | 上游项目 | 授权 |
-| --- | --- | --- | --- |
-| Minimal Zine Poster | 极简纸感编辑海报、留白、实验性文字和视觉锚点 | [LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) | MIT |
-| Photo Abstract Editorial | 保留原照片，并生成同源抽象记忆面板与诗意标题 | [ZzzLc0405/photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) | 个人、教育、研究和非商业用途 |
-| Scenes Gathered Zine v1.3 | 照片锚点、来源抽象插画、强调色和手撕纸边界 | [Zeejay0/gathered-scenes-zine-skill](https://github.com/Zeejay0/gathered-scenes-zine-skill) | 个人非商业授权 |
-| Culture Fragment Poster Engine | 文化素材索引、视觉基因提取、文化海报和品牌 KV | [dacnay816y62-hub/culture-fragment-poster-engine](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine) | 上游未发现许可证，使用前确认 |
-| Create Photo Flipbook UI | 照片书、zine、作品集和响应式 3D 翻页网页 | [HaichaoLihc/create-photo-flipbook-ui](https://github.com/HaichaoLihc/create-photo-flipbook-ui) | MIT；内置 page-flip 另有第三方许可 |
-| Paper Signal | 主体保持、适应性构图、编辑视觉、系列生成和位图 QA | [jiahuiqu17/paper-signal](https://github.com/jiahuiqu17/paper-signal) | MIT |
-| Zine Poster Skill | minimal、scenes、editorial 三种 zine / photo-editorial 工作流 | [jas0nh/zine-poster-skill](https://github.com/jas0nh/zine-poster-skill) | MIT；请同时阅读 NOTICE |
-| Poster Generator Skill | 从文字内容生成 20 种风格的设计级海报 | [howardz27/poster-generator-skill](https://github.com/howardz27/poster-generator-skill) | MIT |
-| Baoyu XHS Images | 将文章拆成 1–10 张社交媒体图片卡片 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 以源仓库许可证为准 |
-
-## 展示效果
-
-以下图片使用上游仓库中的公开示例，通过远程链接展示；本仓库不保存这些图片。
-
-| Skill | 上游展示效果 | 示例来源 |
-| --- | --- | --- |
-| Minimal Zine Poster | <img src="https://raw.githubusercontent.com/LiamGvchi/gc-minimal-zine-poster/main/examples/night-door.jpeg" alt="Minimal Zine Poster example" width="180"> | [night-door.jpeg](https://github.com/LiamGvchi/gc-minimal-zine-poster/blob/main/examples/night-door.jpeg) |
-| Photo Abstract Editorial | <img src="https://raw.githubusercontent.com/ZzzLc0405/photo-abstract-editorial/main/assets/examples/case-10.jpg" alt="Photo Abstract Editorial example" width="180"> | [case-10.jpg](https://github.com/ZzzLc0405/photo-abstract-editorial/blob/main/assets/examples/case-10.jpg) |
-| Scenes Gathered Zine v1.3 | <img src="https://raw.githubusercontent.com/Zeejay0/gathered-scenes-zine-skill/main/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg" alt="Scenes Gathered Zine example" width="180"> | [result.jpg](https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg) |
-| Culture Fragment Poster Engine | <img src="https://raw.githubusercontent.com/dacnay816y62-hub/culture-fragment-poster-engine/main/8dc29d5b4ddb67499a005d4d0c14661.png" alt="Culture Fragment Poster Engine example" width="180"> | [8dc29d5b…png](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine/blob/main/8dc29d5b4ddb67499a005d4d0c14661.png) |
-| Create Photo Flipbook UI | <img src="https://raw.githubusercontent.com/HaichaoLihc/create-photo-flipbook-ui/main/docs/images/death-valley-flipbook.jpg" alt="Create Photo Flipbook UI example" width="180"> | [death-valley-flipbook.jpg](https://github.com/HaichaoLihc/create-photo-flipbook-ui/blob/main/docs/images/death-valley-flipbook.jpg) |
-| Paper Signal | <img src="https://raw.githubusercontent.com/jiahuiqu17/paper-signal/main/assets/gallery/01-study-old-town-after-rain.webp" alt="Paper Signal example" width="180"> | [gallery](https://github.com/jiahuiqu17/paper-signal/tree/main/assets/gallery) |
-| Zine Poster Skill | <img src="https://raw.githubusercontent.com/jas0nh/zine-poster-skill/main/assets/samples/zine-channel-guide.png" alt="Zine Poster Skill example" width="180"> | [zine-channel-guide.png](https://github.com/jas0nh/zine-poster-skill/blob/main/assets/samples/zine-channel-guide.png) |
-| Poster Generator Skill | <img src="https://raw.githubusercontent.com/howardz27/poster-generator-skill/main/examples/poster-grid-en.jpg" alt="Poster Generator Skill example" width="180"> | [poster-grid-en.jpg](https://github.com/howardz27/poster-generator-skill/blob/main/examples/poster-grid-en.jpg) |
-| Baoyu XHS Images | 暂无单独稳定样图，查看上游 README 中的样式、布局和生成说明 | [官方 README](https://github.com/JimLiu/baoyu-skills#baoyu-xhs-images) |
+| Skill | 用途 | 上游项目 | 展示效果 | 授权 |
+| --- | --- | --- | --- | --- |
+| Minimal Zine Poster | 极简纸感编辑海报、留白、实验性文字和视觉锚点 | [LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) | <img src="https://raw.githubusercontent.com/LiamGvchi/gc-minimal-zine-poster/main/examples/night-door.jpeg" alt="Minimal Zine Poster example" width="180"> · [原图](https://github.com/LiamGvchi/gc-minimal-zine-poster/blob/main/examples/night-door.jpeg) | MIT |
+| Photo Abstract Editorial | 保留原照片，并生成同源抽象记忆面板与诗意标题 | [ZzzLc0405/photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) | <img src="https://raw.githubusercontent.com/ZzzLc0405/photo-abstract-editorial/main/assets/examples/case-10.jpg" alt="Photo Abstract Editorial example" width="180"> · [原图](https://github.com/ZzzLc0405/photo-abstract-editorial/blob/main/assets/examples/case-10.jpg) | 个人、教育、研究和非商业用途 |
+| Scenes Gathered Zine v1.3 | 照片锚点、来源抽象插画、强调色和手撕纸边界 | [Zeejay0/gathered-scenes-zine-skill](https://github.com/Zeejay0/gathered-scenes-zine-skill) | <img src="https://raw.githubusercontent.com/Zeejay0/gathered-scenes-zine-skill/main/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg" alt="Scenes Gathered Zine example" width="180"> · [原图](https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg) | 个人非商业授权 |
+| Culture Fragment Poster Engine | 文化素材索引、视觉基因提取、文化海报和品牌 KV | [dacnay816y62-hub/culture-fragment-poster-engine](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine) | <img src="https://raw.githubusercontent.com/dacnay816y62-hub/culture-fragment-poster-engine/main/8dc29d5b4ddb67499a005d4d0c14661.png" alt="Culture Fragment Poster Engine example" width="180"> · [原图](https://github.com/dacnay816y62-hub/culture-fragment-poster-engine/blob/main/8dc29d5b4ddb67499a005d4d0c14661.png) | 上游未发现许可证，使用前确认 |
+| Create Photo Flipbook UI | 照片书、zine、作品集和响应式 3D 翻页网页 | [HaichaoLihc/create-photo-flipbook-ui](https://github.com/HaichaoLihc/create-photo-flipbook-ui) | <img src="https://raw.githubusercontent.com/HaichaoLihc/create-photo-flipbook-ui/main/docs/images/death-valley-flipbook.jpg" alt="Create Photo Flipbook UI example" width="180"> · [原图](https://github.com/HaichaoLihc/create-photo-flipbook-ui/blob/main/docs/images/death-valley-flipbook.jpg) | MIT；内置 page-flip 另有第三方许可 |
+| Paper Signal | 主体保持、适应性构图、编辑视觉、系列生成和位图 QA | [jiahuiqu17/paper-signal](https://github.com/jiahuiqu17/paper-signal) | <img src="https://raw.githubusercontent.com/jiahuiqu17/paper-signal/main/assets/gallery/01-study-old-town-after-rain.webp" alt="Paper Signal example" width="180"> · [图库](https://github.com/jiahuiqu17/paper-signal/tree/main/assets/gallery) | MIT |
+| Zine Poster Skill | minimal、scenes、editorial 三种 zine / photo-editorial 工作流 | [jas0nh/zine-poster-skill](https://github.com/jas0nh/zine-poster-skill) | <img src="https://raw.githubusercontent.com/jas0nh/zine-poster-skill/main/assets/samples/zine-channel-guide.png" alt="Zine Poster Skill example" width="180"> · [原图](https://github.com/jas0nh/zine-poster-skill/blob/main/assets/samples/zine-channel-guide.png) | MIT；请同时阅读 NOTICE |
+| Poster Generator Skill | 从文字内容生成 20 种风格的设计级海报 | [howardz27/poster-generator-skill](https://github.com/howardz27/poster-generator-skill) | <img src="https://raw.githubusercontent.com/howardz27/poster-generator-skill/main/examples/poster-grid-en.jpg" alt="Poster Generator Skill example" width="180"> · [原图](https://github.com/howardz27/poster-generator-skill/blob/main/examples/poster-grid-en.jpg) | MIT |
+| Baoyu XHS Images | 将文章拆成 1–10 张社交媒体图片卡片 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | [官方样式与生成说明](https://github.com/JimLiu/baoyu-skills#baoyu-xhs-images) | 以源仓库许可证为准 |
 
 ## 安装方式
 
