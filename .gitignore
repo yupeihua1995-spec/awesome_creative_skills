@@ -1,0 +1,2 @@
+# Local upstream checkouts may contain their own Git metadata.
+.DS_Store
