@@ -21,6 +21,10 @@
 | Pixeltamer | 面向多种 Agent 的 GPT Image 生成、编辑和多参考图合成工作流 | [gabelul/pixeltamer-gpt-image-skill](https://github.com/gabelul/pixeltamer-gpt-image-skill) | [README 展示与 playbook](https://github.com/gabelul/pixeltamer-gpt-image-skill#readme) | 以源仓库许可证为准 |
 | GPT Image 2 | 通过已登录的 Codex CLI 进行文生图、图生图、风格迁移和多参考图合成 | [samyrwendel/gpt-image-2](https://github.com/samyrwendel/gpt-image-2) | [Gallery](https://github.com/samyrwendel/gpt-image-2/tree/main/gallery) | 以源仓库许可证为准 |
 | Codex Image Gen | 通过本地 OAuth 登录的 Codex CLI 生成图片，支持尺寸、提示词归档和可复现输出 | [stephenlzc/codex-image-gen](https://github.com/stephenlzc/codex-image-gen) | [README 使用示例](https://github.com/stephenlzc/codex-image-gen#readme) | 以源仓库许可证为准 |
+| Canvas Design | 先建立视觉哲学，再输出 PNG / PDF 艺术设计作品 | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/canvas-design) | [SKILL.md 与示例规则](https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md) | 以 `LICENSE.txt` 为准 |
+| Algorithmic Art | 使用 p5.js 和可复现随机种子生成程序化艺术、海报和艺术帧 | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) | [SKILL.md 与模板](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) | 以 `LICENSE.txt` 为准 |
+| Codex Illustrator | 为 Markdown 文章、Slides 和平台封面生成插图、信息图与配图文件 | [99Gaoxiaoqi/codex-illustrator](https://github.com/99Gaoxiaoqi/codex-illustrator) | [README 展示与流程](https://github.com/99Gaoxiaoqi/codex-illustrator#readme) | MIT |
+| Imagegen2 | 面向游戏素材的 GPT Image 生成、编辑、精灵图、图标、背景和参考图变体 | [zeveck/imagegen2](https://github.com/zeveck/imagegen2) | [Examples](https://github.com/zeveck/imagegen2/tree/main/examples) | 以源仓库许可证为准 |
 
 ## 安装方式
 
@@ -35,6 +39,9 @@ npx skills add howardz27/poster-generator-skill --agent codex
 npx skills add JimLiu/baoyu-skills --agent codex
 npx skills add gabelul/pixeltamer-gpt-image-skill --agent codex
 npx skills add samyrwendel/gpt-image-2 --agent codex
+npx skills add anthropics/skills --skill canvas-design -y
+npx skills add anthropics/skills --skill algorithmic-art -y
+npx skills add 99Gaoxiaoqi/codex-illustrator --agent codex
 ```
 
 ### 方式二：Git 克隆
@@ -54,6 +61,8 @@ git clone https://github.com/JimLiu/baoyu-skills.git
 git clone https://github.com/gabelul/pixeltamer-gpt-image-skill.git
 git clone https://github.com/samyrwendel/gpt-image-2.git
 git clone https://github.com/stephenlzc/codex-image-gen.git
+git clone https://github.com/99Gaoxiaoqi/codex-illustrator.git
+git clone https://github.com/zeveck/imagegen2.git
 ```
 
 ### 方式三：单 Skill 安装
@@ -80,6 +89,8 @@ cp -R poster-generator-skill ~/.agents/skills/poster-generator
 cp -R pixeltamer-gpt-image-skill ~/.agents/skills/pixeltamer
 cp -R gpt-image-2 ~/.agents/skills/gpt-image-2
 cp -R codex-image-gen ~/.agents/skills/codex-image-gen
+cp -R codex-illustrator ~/.agents/skills/codex-illustrator
+cp -R imagegen2/.codex/skills/imagegen2 ~/.agents/skills/imagegen2
 ```
 
 安装完成后，新开一个任务或刷新宿主的 Skill 列表。是否能直接生成图片，取决于宿主提供的图像生成和图像查看能力。
